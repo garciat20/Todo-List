@@ -43,7 +43,7 @@ function addTodo(){
 
 function removeTodo(todo){
     // remove object from todos array
-    todos.value = todos.value.filter((ele) => ele.text !== todo.text)
+    todos.value = todos.value.filter((ele) => ele.id !== todo.id)
 }
 
 // when enter key is pressed in input field, event 
