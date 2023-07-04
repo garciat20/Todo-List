@@ -38,7 +38,10 @@ const todos = ref([
 ])
 
 function addTodo(){
-    todos.value.push({id: id++, text: text.value})
+    if (text.value.trim() !== ''){
+        todos.value.push({id: id++, text: text.value})
+        text.value = ''
+    }
 }
 
 function removeTodo(todo){
