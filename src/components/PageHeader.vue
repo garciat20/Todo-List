@@ -1,6 +1,6 @@
 <template>
         <section class="section">
-            <h1 class="title">Todo List 🥳</h1>
+            <h1 class="title">To-do List 🥳</h1>
         </section>
 </template>
 
