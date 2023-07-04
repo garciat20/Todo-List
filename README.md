@@ -1,4 +1,4 @@
-# first-vue
+# Todo-List I made using Javascript alongisde Vue
 
 ## Project setup
 ```
