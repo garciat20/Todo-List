@@ -1,4 +1,4 @@
-# Todo-List I made using Javascript alongisde Vue
+# Simple todo list made with JavaScript/ Vue
 
 ## Project setup
 ```
